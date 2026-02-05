@@ -28,3 +28,11 @@ jobs:
             - name: Build data
               run: |
                   python scripts/build_data.py
+                  ls -d */
+
+            - name: Deploy to GitHub Pages
+              uses: JamesIves/github-pages-deploy-action@v4
+              with:
+                  folder: _site
+                  branch: gh-pages
+                  single-commit: true
