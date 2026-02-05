@@ -294,12 +294,7 @@ prose:
             label: Organisation
             translation_key: metadata_fields.CONTACT_ORGANISATION
             scope: national
-      - name: rec_use_lim
-        field:
-            element: text
-            label: Comment and limitations
-            translation_key: metadata_fields.REC_USE_LIM
-            scope: national
+
             ######### Reporting status (REQUIRED) #########
       - name: reporting_status
         field:
