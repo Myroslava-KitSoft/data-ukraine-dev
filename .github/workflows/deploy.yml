@@ -23,8 +23,7 @@ jobs:
             - name: Install dependencies
               run: |
                   python -m pip install --upgrade pip
-                  if [ -f scripts/requirements.txt ]; then pip install -r scripts/requirements.txt; fi
-                  pip install git+https://github.com/open-sdg/open-sdg-preprocessor.git
+                  pip install -r scripts/requirements.txt
 
             - name: Build data
               run: |
