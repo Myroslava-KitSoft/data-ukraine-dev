@@ -264,36 +264,6 @@ prose:
 #           translation_key: metadata_fields.OTHER_DOC
 #           scope: global
       ######### National Metadata #########
-      - name: sdg_goal_a
-        field:
-            element: text
-            label: Goal
-            translation_key: metadata_fields.SDG_GOAL
-            scope: national
-      - name: sdg_target
-        field:
-            element: text
-            label: Target
-            translation_key: metadata_fields.SDG_TARGET
-            scope: national
-      - name: sdg_indicator_a
-        field:
-            element: text
-            label: Indicator
-            translation_key: metadata_fields.SDG_INDICATOR
-            scope: national
-      - name: unit_measure
-        field:
-            element: text
-            label: Unit of measure
-            translation_key: metadata_fields.UNIT_MEASURE
-            scope: national
-      - name: contact_organisation
-        field:
-            element: text
-            label: Organisation
-            translation_key: metadata_fields.CONTACT_ORGANISATION
-            scope: national
 
             ######### Reporting status (REQUIRED) #########
       - name: reporting_status
